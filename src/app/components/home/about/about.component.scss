@@ -1,0 +1,141 @@
+@import "./../../../../variables.scss";
+
+.about{
+
+    .about-description{
+        margin-top: 30px;
+        max-width: 480px;
+    }
+
+    .about-img-container{
+        width: 324px;
+        margin: auto;
+        position: relative;
+
+        .filtered-image{
+            display: block;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+            transition: transform 0.3s ease;
+        }
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: $Purple, $alpha: 0.5);
+            border-radius: 5px;
+            mix-blend-mode: multiply;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+            z-index: 2;
+        }
+
+        &:hover .filtered-image {
+            transform: translate(-5px, -5px); 
+        }
+
+        &:hover::before {
+            transform: translate(-5px, -5px); 
+            background-color: rgba(128, 0, 128, 0); 
+        }
+
+        &:after{
+            content: '';
+            border: 2px solid $Purple;
+            z-index: 0;
+            display: block;
+            position: absolute;
+            width: 324px;
+            height: 305px;
+            border-radius: 5px;
+            bottom: -20px;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        &:hover::after {
+            transform: translate(5px, 5px); 
+        }
+
+        img{
+            z-index: 3;
+            position: relative;
+        }
+    }
+
+    .skills-list{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(140px,200px));
+        overflow: hidden;
+        padding: 0;
+        margin: 20px 0 0 0;
+        list-style: none;
+    }
+
+    .skill-element{
+        position: relative;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        font-size: 13px;
+        font-family: $CodeFont;
+        color: $Slate;
+        span{
+          padding-bottom: 5px;
+        }
+
+        &:before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: $Purple;
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+    .about-img-container{
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+        .about-img-container img{
+            width: 200px;
+            height: 200px;
+        }
+        .about-img-container:after {
+            width: 200px;
+            height: 200px;
+            bottom: 190px;
+            left: 74px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+
+        .about-img-container {
+            width: 100%;
+
+            img{
+                width: 180px;
+                height: 180px;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,147 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Felipe_Guell_Ingles.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "Student in <span class='underline'>University Degree in Web Programming</span> with the ability to create scalable, documented, and understandable web applications using technologies such as <span class='underline'>Angular, Spring Boot, and MySQL.</span> Committed to delivering high-quality solutions that optimize user experience and meet business objectives. Passionate about continuous learning and constant professional improvement.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "I love contributing my knowledge to create new things that help solve problems.",
+    "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
+    "I also program things for my personal use, whether for hobby or utility.",
+    "Some of the technologies I have trained in and worked with include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Lader Agency",
+      "Title": "Frontend Developer Internship",
+      "Date": "June 2024 - September 2024",
+      "Description": [
+        "Maintenance of websites for various clients.",
+        "Development of catalog-type E-commerce with WooCommerce and Elementor Pro.",
+        "Implementation of SEO practices.",
+        "Optimization of loading speed and performance improvements.",
+        "Teamwork under the SCRUM methodology.",
+        "<span class='underline'> Demo: <a href='https://distribal.lader.com.ar/' target='_blank'>E-commerce</a></span>"
+      ]
+    },
+    {
+      "Tab": "Terraserv",
+      "Title": "Fullstack Project",
+      "Date": "December 2023 - April 2024",
+      "Description": [
+        "Development of a web application for the centralized management of geophysical study reports, which were previously scattered across multiple computers.",
+        "Implementation of file, image, and coordinate uploads, storing data in an Amazon S3 Bucket and visualization on an interactive map with Leaflet.js.",
+        "Autocomplete locations using Google Places API and an auditable log with pagination and sorting.",
+        "Client-Server Architecture. Backend developed with Spring Boot, Spring Data JPA, JWT for authentication, and MySQL for the database. Frontend in Angular, supported by Bootstrap and SweetAlert2.",
+        "Docker for deployment, Git for version control, JUnit and Mockito for testing, and documentation of the written code.",
+        "<span class='underline'>Repository<a href='https://github.com/FeliGuell/terraserv' target='_blank'>https://github.com/FeliGuell/terraserv</a></span>"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Terraserv",
+      "Description": "Web application for managing geophysical study reports. The application facilitates creation, management, and visualization through an intuitive interface and features such as file uploads, storage in <span class='underline'>Amazon S3</span>, search on an interactive map with <span class='underline'>Leaflet.js</span>, and location autocomplete with <span class='underline'>Google Places API.</span>",
+      "imgs": [
+        "assets/images/terraserv/1.png",
+        "assets/images/terraserv/2.png",
+        "assets/images/terraserv/3.jpeg",
+        "assets/images/terraserv/4.jpeg",
+        "assets/images/terraserv/5.jpeg"
+      ],
+      "ghLink": "https://github.com/FeliGuell/terraserv",
+      "Technologies": [
+        "Spring Boot",
+        "Angular",
+        "Bootstrap",
+        "Leaflet.js",
+        "JWT Auth"
+      ]
+    },
+
+    {
+      "Title": "E-commerce",
+      "Description": "<span class='underline'>Challenge ONE - Front-End</span> of an AluraGeek store, where products can be managed and contact can be made through a form.",
+      "imgs": [
+        "assets/images/ecommerce-one/1.jpeg",
+        "assets/images/ecommerce-one/2.jpeg",
+        "assets/images/ecommerce-one/3.jpeg"
+      ],
+      "ghLink": "https://github.com/FeliGuell/challenge-one-ecommerce",
+      "demoLink": "https://www.linkedin.com/posts/feliguellweb_muestro-un-proyecto-realizado-a-partir-activity-6986045124560490497-vXVf/?utm_source=share&utm_medium=member_desktop",
+      "Technologies": ["JavaScript", "JSON Server", "CSS3", "HTML5"]
+    },
+
+    {
+      "Title": "Egg Library",
+      "Description": "Application that allows managing books, authors, and publishers. Handling of <span class='underline'>sessions</span> and <span class='underline'>roles</span>",
+      "imgs": [
+        "assets/images/biblioteca-egg/1.png",
+        "assets/images/biblioteca-egg/2.png",
+        "assets/images/biblioteca-egg/3.png"
+      ],
+      "ghLink": "https://github.com/FeliGuell/biblioteca",
+      "Technologies": [
+        "Spring Security",
+        "Spring Data JPA",
+        "Thymeleaf",
+        "Docker"
+      ]
+    },
+
+    {
+      "Title": "Hotel Alura",
+      "Description": "<span class='underline'>Challenge ONE - Java</span>. Hotel system where guests and reservations can be managed. It includes a search system by last name or reservation number.",
+      "imgs": [
+        "assets/images/hotel/1.png",
+        "assets/images/hotel/2.png",
+        "assets/images/hotel/3.png",
+        "assets/images/hotel/4.png",
+        "assets/images/hotel/5.png"
+      ],
+      "ghLink": "https://github.com/FeliGuell/challenge-one-alura-hotel-latam",
+      "demoLink": "https://www.linkedin.com/posts/feliguellweb_aqu%C3%AD-les-traigo-el-%C3%BAltimo-challenge-one-activity-6986004350410076160-erFD?utm_source=share&utm_medium=member_desktop",
+      "Technologies": [
+        "Java 8",
+        "Swing",
+        "JCalendar",
+        "MySQL",
+        "WindowsBuilder"
+      ]
+    }
+  ],
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Challenge - Hangman",
+      "Description": "Hangman game using JavaScript, HTML, and CSS.",
+      "ghLink": "https://github.com/FeliGuell/challenge2-ahorcado",
+      "demoLink": "https://feliguell.github.io/challenge2-ahorcado/",
+      "Technologies": ["JavaScript", "CSS3", "HTML5"]
+    },
+    {
+      "Title": "Egg News Site",
+      "Description": "The objective of this project is to develop a web system in Java using a MySQL database, JPA Repository to persist objects, and Spring Boot as the web development framework.",
+      "ghLink": "https://github.com/FeliGuell/noticias",
+      "demoLink": "https://github.com/FeliGuell/noticias",
+      "Technologies": ["Java", "Spring Boot", "MySQL", "Spring Data JPA"]
+    }
+  ],
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hello!",
+  "Contact.Content": "I would be delighted to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact"
+}
